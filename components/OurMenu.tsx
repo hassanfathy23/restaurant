@@ -32,7 +32,7 @@ export default function OurMenu() {
           </div>
         </div>
       </div>
-      <div className="flex flex-row justify-between">
+      <div className="flex flex-row justify-between items-end">
         <MenuList />
         <FoodList />
       </div>

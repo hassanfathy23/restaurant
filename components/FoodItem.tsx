@@ -11,9 +11,11 @@ type AppProps = {
 
 export default function FoodItem({name, description, image, price, imageHeight}: AppProps) {
     return (
-        <div className="relative h-full p-8 mr-10 flex flex-col items-center gap-4 rounded-3xl shadow-md shadow-black/30 text-center overflow-hidden">
-            <div className={`relative w-full h-[${imageHeight}px]`}>
-            <Image src={`/images/${image}`} alt={name} fill /> 
+        <div className="h-full px-8 pb-8 pt-20 mr-10 flex flex-col items-center gap-4 rounded-3xl shadow-md shadow-black/30 text-center">
+            <div className="w-full absolute -top-40">
+            <div className="relative w-full h-[250px]">
+            <Image src={`/images/${image}`} alt={name} fill objectFit="contain"/> 
+            </div>
             </div>
             <h2 className=" font-bold text-[36px] leading-none">{name}</h2>
             <p className="px-8 text-[18px] flex-1 text-black/50">{description}</p>
