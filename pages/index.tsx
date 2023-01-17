@@ -1,5 +1,6 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
+import Testimonials from "../components/Testimonials";
 import WhatWeServe from "../components/WhatWeServe";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <WhatWeServe />
+      <Testimonials />
     </div>
   )
 }
