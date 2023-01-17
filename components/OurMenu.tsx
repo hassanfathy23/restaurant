@@ -14,23 +14,6 @@ export default function OurMenu() {
             Make You Fall In Love
           </h2>
         </div>
-        <div className="px-10 py-3 flex flex-row gap-4 self-end">
-          <div className="p-[2px] flex justify-center items-center rounded-full bg-[#CFCFCF]">
-            <Icon
-              icon="material-symbols:chevron-right"
-              width="35"
-              height="35"
-            />
-          </div>
-          <div className="p-[2px] flex justify-center items-center rounded-full bg-[#EC6083]">
-            <Icon
-              icon="material-symbols:chevron-right"
-              width="35"
-              height="35"
-              className="rotate-180"
-            />
-          </div>
-        </div>
       </div>
       <div className="flex flex-row justify-between items-end">
         <MenuList />

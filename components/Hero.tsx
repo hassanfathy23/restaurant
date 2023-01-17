@@ -15,7 +15,7 @@ export default function Hero() {
         </p>
         <Link
           href="/start"
-          className="max-w-fit py-2 px-8 bg-[#EC6083] rounded-2xl text-lg font-medium"
+          className="max-w-fit py-2 px-8 bg-[#EC6083] rounded-2xl text-lg font-medium transition-all duration-300 hover:bg-[#EC6083]/50"
         >
           Get Started
         </Link>

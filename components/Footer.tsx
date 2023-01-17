@@ -4,7 +4,7 @@ import { Icon } from "@iconify/react";
 export default function Footer() {
   return (
     <div className="mt-72 px-8 pb-8 flex flex-row items-center justify-between">
-      <div className="w-[20%] flex flex-col gap-8">
+      <div className="w-[20%] flex flex-col gap-8 cursor">
         <Image
           src="/images/Burger-King.svg"
           width="96"
@@ -16,37 +16,37 @@ export default function Footer() {
           designated location
         </p>
         <div className="flex flex-row gap-2 items-center justify-start">
-          <Icon icon="mdi:twitter" width="50" height="50" />
-          <Icon icon="ic:baseline-facebook" width="50" height="50" />
-          <Icon icon="ri:instagram-fill" width="50" height="50" />
+          <Icon icon="mdi:twitter" width="50" height="50" className="cursor-pointer transition-all duration-300 hover:scale-110" />
+          <Icon icon="ic:baseline-facebook" width="50" height="50" className="cursor-pointer transition-all duration-300 hover:scale-110" />
+          <Icon icon="ri:instagram-fill" width="50" height="50" className="cursor-pointer transition-all duration-300 hover:scale-110" />
         </div>
       </div>
       <div className="flex flex-row self-end gap-32">
         <div className="flex flex-col gap-10">
           <h3 className="text-[24px] font-medium">About</h3>
           <div className="flex flex-col gap-8 leading-none">
-            <p className="text-[18px] text-black/50">About Us</p>
-            <p className="text-[18px] text-black/50">Features</p>
-            <p className="text-[18px] text-black/50">News</p>
-            <p className="text-[18px] text-black/50">Menu</p>
+            <p className="text-[18px] text-black/50 border-b-2 border-b-transparent cursor-pointer transition-all duration-300 hover:border-b-black">About Us</p>
+            <p className="text-[18px] text-black/50 border-b-2 border-b-transparent cursor-pointer transition-all duration-300 hover:border-b-black">Features</p>
+            <p className="text-[18px] text-black/50 border-b-2 border-b-transparent cursor-pointer transition-all duration-300 hover:border-b-black">News</p>
+            <p className="text-[18px] text-black/50 border-b-2 border-b-transparent cursor-pointer transition-all duration-300 hover:border-b-black">Menu</p>
           </div>
         </div>
         <div className="flex flex-col gap-10">
           <h3 className="text-[24px] font-medium">Company</h3>
           <div className="flex flex-col gap-8 leading-none">
-            <p className="text-[18px] text-black/50">Why Burger King?</p>
-            <p className="text-[18px] text-black/50">Partner With Us</p>
-            <p className="text-[18px] text-black/50">FAQ</p>
-            <p className="text-[18px] text-black/50">Blog</p>
+            <p className="text-[18px] text-black/50 border-b-2 border-b-transparent cursor-pointer transition-all duration-300 hover:border-b-black">Why Burger King?</p>
+            <p className="text-[18px] text-black/50 border-b-2 border-b-transparent cursor-pointer transition-all duration-300 hover:border-b-black">Partner With Us</p>
+            <p className="text-[18px] text-black/50 border-b-2 border-b-transparent cursor-pointer transition-all duration-300 hover:border-b-black">FAQ</p>
+            <p className="text-[18px] text-black/50 border-b-2 border-b-transparent cursor-pointer transition-all duration-300 hover:border-b-black">Blog</p>
           </div>
         </div>
         <div className="flex flex-col gap-10">
           <h3 className="text-[24px] font-medium">Support</h3>
           <div className="flex flex-col gap-8 leading-none">
-            <p className="text-[18px] text-black/50">Account</p>
-            <p className="text-[18px] text-black/50">Support Center</p>
-            <p className="text-[18px] text-black/50">Feedback</p>
-            <p className="text-[18px] text-black/50">Contact Us</p>
+            <p className="text-[18px] text-black/50 border-b-2 border-b-transparent cursor-pointer transition-all duration-300 hover:border-b-black">Account</p>
+            <p className="text-[18px] text-black/50 border-b-2 border-b-transparent cursor-pointer transition-all duration-300 hover:border-b-black">Support Center</p>
+            <p className="text-[18px] text-black/50 border-b-2 border-b-transparent cursor-pointer transition-all duration-300 hover:border-b-black">Feedback</p>
+            <p className="text-[18px] text-black/50 border-b-2 border-b-transparent cursor-pointer transition-all duration-300 hover:border-b-black">Contact Us</p>
           </div>
         </div>
         <div className="flex flex-col gap-10">

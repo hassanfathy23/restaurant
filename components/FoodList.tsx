@@ -2,6 +2,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
 import FoodItem from "./FoodItem";
+import ButtonGroup from "./ButtonGroup";
 
 const responsive = {
   superLargeDesktop: {
@@ -33,15 +34,18 @@ export default function FoodList() {
       ssr={true} // means to render carousel on server-side.
       // infinite={true}
       // autoPlay={this.props.deviceType !== "mobile" ? true : false}
-      autoPlay={false}
-      // autoPlaySpeed={1000}
+      // autoPlay={true}
+      // autoPlaySpeed={2000}
       // keyBoardControl={true}
-      // customTransition="all .5"
+      // customTransition="all 2"
       // transitionDuration={500}
-      // containerClass="carousel-container flow"
-      // removeArrowOnDeviceType={["tablet", "mobile"]}
+      // containerClass="carousel-container"
+      removeArrowOnDeviceType={["tablet", "mobile", "desktop"]}
       deviceType="desktop"
       // dotListClass="custom-dot-list-style"
+      customButtonGroup={
+      <ButtonGroup /* // @ts-ignore */ goToSlide next previous />
+    }
       itemClass="carousel-item-padding-40-px"
       className="w-10/12 h-5/6 p-6 flex items-center relative overflow-x-clip"
     >
