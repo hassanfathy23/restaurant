@@ -1,5 +1,7 @@
+import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
+import OurMenu from "../components/OurMenu";
 import Testimonials from "../components/Testimonials";
 import WhatWeServe from "../components/WhatWeServe";
 
@@ -9,7 +11,9 @@ export default function Home() {
       <Navbar />
       <Hero />
       <WhatWeServe />
+      <OurMenu />
       <Testimonials />
+      <Footer />
     </div>
   )
 }
