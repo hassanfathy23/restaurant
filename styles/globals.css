@@ -18,3 +18,8 @@ a {
   box-sizing: border-box;
 }
 
+.react-multi-carousel-list {
+  overflow-x: clip !important;
+  overflow-y: visible !important;
+}
+
