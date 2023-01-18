@@ -4,7 +4,7 @@ import FoodList from "./FoodList";
 
 export default function OurMenu() {
   return (
-    <div className="mt-24 flex flex-col gap-20">
+    <div className="mt-24 flex flex-col gap-4 lg:gap-20">
       <div className="flex flex-row justify-between items-center">
         <div className="flex flex-col gap-1">
           <p className="text-[18px] font-medium text-[#EC6083]">Our Menu</p>
@@ -15,7 +15,7 @@ export default function OurMenu() {
           </h2>
         </div>
       </div>
-      <div className="flex flex-row justify-between items-end">
+      <div className="flex flex-col lg:flex-row justify-between items-end">
         <MenuList />
         <FoodList />
       </div>

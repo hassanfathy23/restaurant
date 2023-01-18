@@ -29,7 +29,7 @@ export default function FoodList() {
     <Carousel
       // swipeable={false}
       // draggable={false}
-      // showDots={true}
+      showDots={true}
       responsive={responsive}
       ssr={true} // means to render carousel on server-side.
       // infinite={true}
@@ -47,7 +47,7 @@ export default function FoodList() {
       <ButtonGroup /* // @ts-ignore */ goToSlide next previous />
     }
       itemClass="carousel-item-padding-40-px"
-      className="w-10/12 h-5/6 p-6 flex items-center relative overflow-x-clip"
+      className="w-full lg:w-10/12 h-5/6 p-6 mt-32 lg:mt-12 flex items-center relative overflow-x-clip"
     >
       <FoodItem
         name="donut"

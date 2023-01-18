@@ -4,9 +4,9 @@ import Image from "next/legacy/image";
  
 export default function Hero() {
   return (
-    <div className={`py-10 flex flex-row gap-4`}>
-      <div className="w-6/12 flex flex-col justify-center gap-8">
-        <h2 className="text-[96px] text-roboto font-bold leading-tight">
+    <div className={`py-10 text-center lg:text-start flex flex-col lg:flex-row gap-4`}>
+      <div className="w-full lg:w-6/12 flex flex-col justify-center items-center lg:items-start gap-8">
+        <h2 className="text-[65px] sm:text-[96px] text-roboto font-bold leading-tight">
           Be the fastest in delivering your{" "}
           <span className="text-[#EC6083]">food</span>
         </h2>
@@ -15,14 +15,14 @@ export default function Hero() {
           location
         </p>
         <Link
-          href="/start"
+          href="#"
           className="max-w-fit py-2 px-8 bg-[#EC6083] rounded-2xl text-lg font-medium transition-all duration-300 hover:bg-[#EC6083]/50"
         >
           Get Started
         </Link>
       </div>
-      <div className="w-6/12 h-[600px] relative">
-        <Image src="/images/burger.png" alt="burger" layout="fill" />
+      <div className="w-full lg:w-6/12 h-[600px] relative">
+        <Image src="/images/burger.png" alt="burger" layout="fill" priority />
       </div>
     </div>
   );

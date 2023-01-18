@@ -5,11 +5,11 @@ export default function WhatWeServe() {
     <div className="py-20 flex flex-col gap-20">
       <div>
         <p className="text-center text-[#EC6083]">WHAT WE SERVE</p>
-        <h2 className="w-4/12 mx-auto text-center text-[48px] font-bold leading-tight">
+        <h2 className="w-full sm:w-8/12 lg:w-4/12 mx-auto text-center text-[48px] font-bold leading-tight">
           your favourite food delivery partner
         </h2>
       </div>
-      <div className="flex flex-row justify-between items-center">
+      <div className="flex flex-col gap-10 lg:gap-0 lg:flex-row justify-between items-center">
         <div className="flex flex-col gap-3">
           <Image
             src="/images/clip-delivery.png"

@@ -8,12 +8,12 @@ import WhatWeServe from "../components/WhatWeServe";
 
 export default function Home() {
   return (
-    <div className={`max-w-screen-2xl px-10 mx-auto flex flex-col bg-[#E9F3FD]`}>
+    <div className={`max-w-7xl px-2 sm:px-10 mx-auto flex flex-col bg-[#E9F3FD] backdrop-blur-sm`}>
       <Navbar />
-      <Hero />
+      <Hero /> 
       <WhatWeServe />
       <OurMenu />
-      <Testimonials />
+     <Testimonials />
       <Footer />
     </div>
   )

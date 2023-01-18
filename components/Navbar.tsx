@@ -4,7 +4,7 @@ import { Icon } from "@iconify/react";
 
 export default function Navbar() {
   return (
-    <div className="py-3 flex flex-row justify-between items-center">
+    <div className="py-3 flex flex-col md:flex-row flex-wrap shrink justify-between items-center">
       <div>
         <Image
           src="/images/Burger-King.svg"
@@ -14,12 +14,12 @@ export default function Navbar() {
           className="cursor-pointer"
         />
       </div>
-      <div className="flex flex-row justify-start items-center gap-6 text-lg font-medium">
-        <Link href="/" className="p-1 cursor-pointer transition-all duration-300 border-2 border-transparent rounded-lg hover:border-black hover:bg-black hover:text-white">Home</Link>
-        <Link href="/reservation" className="p-1 cursor-pointer transition-all duration-300 border-2 border-transparent rounded-lg hover:border-black hover:bg-black hover:text-white">Reservation</Link>
-        <Link href="/menu" className="p-1 cursor-pointer transition-all duration-300 border-2 border-transparent rounded-lg hover:border-black hover:bg-black hover:text-white">Menu</Link>
-        <Link href="/about" className="p-1 cursor-pointer transition-all duration-300 border-2 border-transparent rounded-lg hover:border-black hover:bg-black hover:text-white">About</Link>
-        <Link href="/contact" className="p-1 cursor-pointer transition-all duration-300 border-2 border-transparent rounded-lg hover:border-black hover:bg-black hover:text-white">Contact</Link>
+      <div className="flex flex-col sm:flex-row justify-start items-center gap-6 text-lg font-medium">
+        <Link href="#" className="p-1 cursor-pointer transition-all duration-300 border-2 border-transparent rounded-lg hover:border-black hover:bg-black hover:text-white">Home</Link>
+        <Link href="#" className="p-1 cursor-pointer transition-all duration-300 border-2 border-transparent rounded-lg hover:border-black hover:bg-black hover:text-white">Reservation</Link>
+        <Link href="#" className="p-1 cursor-pointer transition-all duration-300 border-2 border-transparent rounded-lg hover:border-black hover:bg-black hover:text-white">Menu</Link>
+        <Link href="#" className="p-1 cursor-pointer transition-all duration-300 border-2 border-transparent rounded-lg hover:border-black hover:bg-black hover:text-white">About</Link>
+        <Link href="#" className="p-1 cursor-pointer transition-all duration-300 border-2 border-transparent rounded-lg hover:border-black hover:bg-black hover:text-white">Contact</Link>
       </div>
       <div className="flex flex-row justify-start items-center gap-5">
         <div className="p-3 flex justify-center items-center rounded-lg bg-[#EC6083] cursor-pointer transition-all duration-300 hover:scale-110">

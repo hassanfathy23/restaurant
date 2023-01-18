@@ -4,7 +4,7 @@ import MenuItem from "./MenuItem";
 
 export default function MenuList() {
     return (
-        <div className="pr-20 flex flex-col gap-4 border-r-4 border-r-[#EC6083]">
+        <div className="lg:pr-20 flex flex-row flex-wrap lg:flex-col gap-4 border-r-4 border-r-[#EC6083]">
             <MenuItem name="All Dishes" image="/images/refreshments.png" />
             <MenuItem name="Hamburgers" image="/images/Hamburger.png" />
             <MenuItem name="Pizzas" image="/images/Pizza.png" />
