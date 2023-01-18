@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 
 const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -9,7 +10,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'sans': ['variable(--font-roboto)', ...defaultTheme.fontFamily.sans]
+        'roboto': ['Roboto', ...defaultTheme.fontFamily.sans]
       }
     },
   },

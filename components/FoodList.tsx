@@ -39,7 +39,7 @@ export default function FoodList() {
       // keyBoardControl={true}
       // customTransition="all 2"
       // transitionDuration={500}
-      // containerClass="carousel-container"
+      containerClass="carousel-container"
       removeArrowOnDeviceType={["tablet", "mobile", "desktop"]}
       deviceType="desktop"
       // dotListClass="custom-dot-list-style"

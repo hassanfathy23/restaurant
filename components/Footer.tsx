@@ -1,9 +1,10 @@
 import Image from "next/image";
 import { Icon } from "@iconify/react";
+import Link from "next/link";
 
 export default function Footer() {
   return (
-    <div className="mt-72 px-8 pb-8 flex flex-row items-center justify-between">
+    <div className="mt-52 px-8 pb-8 flex flex-row items-center justify-between">
       <div className="w-[20%] flex flex-col gap-8 cursor">
         <Image
           src="/images/Burger-King.svg"
@@ -16,9 +17,9 @@ export default function Footer() {
           designated location
         </p>
         <div className="flex flex-row gap-2 items-center justify-start">
-          <Icon icon="mdi:twitter" width="50" height="50" className="cursor-pointer transition-all duration-300 hover:scale-110" />
-          <Icon icon="ic:baseline-facebook" width="50" height="50" className="cursor-pointer transition-all duration-300 hover:scale-110" />
-          <Icon icon="ri:instagram-fill" width="50" height="50" className="cursor-pointer transition-all duration-300 hover:scale-110" />
+          <Link href="https://twitter.com/Hassan74156208"><Icon icon="mdi:twitter" width="50" height="50" className="cursor-pointer transition-all duration-300 hover:scale-110" /></Link>
+          <Link href="https://twitter.com/Hassan74156208"><Icon icon="ic:baseline-facebook" width="50" height="50" className="cursor-pointer transition-all duration-300 hover:scale-110" /></Link>
+          <Link href="https://twitter.com/Hassan74156208"><Icon icon="ri:instagram-fill" width="50" height="50" className="cursor-pointer transition-all duration-300 hover:scale-110" /></Link>
         </div>
       </div>
       <div className="flex flex-row self-end gap-32">
@@ -53,7 +54,7 @@ export default function Footer() {
           <h3 className="text-[24px] font-medium">Get In Touch</h3>
           <div className="flex flex-col gap-8 leading-none">
             <p className="text-[18px] text-black/50">
-              Question Or Feedback?<br></br> we'd Like To Hear From You
+              Question Or Feedback?<br></br> we&apos;d Like To Hear From You
             </p>
             <div className="flex flex-row relative items-center">
               <input

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Testimonials() {
   return (
-    <div className="flex flex-row gap-20 justify-evenly items-center">
+    <div className="mt-48 flex flex-row gap-20 justify-evenly items-center">
       <div className="relative w-[610px] h-[406px]">
         <Image src="/images/clip-waiting.png" alt="image" fill />
       </div>
