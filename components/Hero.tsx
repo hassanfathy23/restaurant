@@ -1,9 +1,16 @@
 import Link from "next/link";
 import Image from "next/image";
+import { Roboto } from '@next/font/google'
 
+const roboto = Roboto({
+  weight: '400',
+  subsets: ["latin"],
+  variable: '--font-roboto'
+})
+ 
 export default function Hero() {
   return (
-    <div className="py-10 flex flex-row gap-4">
+    <div className={`py-10 flex flex-row gap-4 ${roboto.variable} font-sans`}>
       <div className="w-6/12 flex flex-col justify-center gap-8">
         <h2 className="text-[96px] text-roboto font-bold leading-tight">
           Be the fastest in delivering your{" "}
